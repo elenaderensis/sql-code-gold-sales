@@ -181,18 +181,3 @@ The 6 Low-Performer products contribute $35.7K — less than 0.2% of revenue. Di
 
 **4. Invest in H2 and Develop Q1 Demand Strategies**
 Align marketing spend and inventory builds with the Q3–Q4 seasonal peak. For Q1, test targeted promotions or loyalty-reward activations with the VIP and Regular segments to test whether off-peak demand can be stimulated without margin erosion.
-
-
-## Future Enhancements
-
-**1. Margin & Profitability Analysis**
-Integrate cost data from `gold_dim_products` into the sales fact to compute per-transaction gross margin. Build a product-level P&L view to shift the conversation from revenue to profit contribution.
-
-**2. Cohort Analysis**
-Segment customers by acquisition month and track retention and revenue decay over time. This would reveal whether newer cohorts behave differently from historical ones — critical for evaluating marketing effectiveness.
-
-**3. Geographic Expansion Modeling**
-Layer country-level customer density and average order value to identify which mid-tier markets (UK, Germany, France) have the strongest expansion potential relative to current investment.
-
-**4. Predictive Churn Scoring**
-Use the `recency` and `lifespan` KPIs already computed in `report_customers` as input features for a simple churn model — flagging at-risk VIP customers before they lapse.
